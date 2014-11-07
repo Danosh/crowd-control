@@ -23,10 +23,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FirstScreenActivity"
-            android:label="@string/title_activity_first_screen" >
-        </activity>
-        <activity
             android:name=".SecondScreenActivity"
             android:label="@string/title_activity_second_screen" >
         </activity>
