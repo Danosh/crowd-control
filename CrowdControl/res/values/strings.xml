@@ -11,5 +11,6 @@
     <string name="title_activity_first_screen">FirstScreenActivity</string>
     <string name="title_activity_second_screen">Floor Layout</string>
     <string name="title_activity_check_in">Check In</string>
+    <string name="title_activity_feed_view">Feed View</string>
 
 </resources>

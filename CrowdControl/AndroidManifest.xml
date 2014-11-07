@@ -34,6 +34,10 @@
             android:name=".CheckIn"
             android:label="@string/title_activity_check_in" >
         </activity>
+        <activity
+            android:name=".FeedView"
+            android:label="@string/title_activity_feed_view" >
+        </activity>
     </application>
 
 </manifest>

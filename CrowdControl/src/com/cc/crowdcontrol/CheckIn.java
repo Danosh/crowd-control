@@ -30,8 +30,8 @@ public class CheckIn extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				//Intent next = new Intent(getApplicationContext(), FeedView.class);
-				//startActivity(next);
+				Intent next = new Intent(getApplicationContext(), FeedView.class);
+				startActivity(next);
 			}
 		});
 	}
