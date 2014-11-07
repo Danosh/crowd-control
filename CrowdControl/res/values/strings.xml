@@ -8,5 +8,8 @@
     <string name="fourth">4th Floor</string>
     <string name="fifth">5th Floor</string>
     <string name="first_instruction">Please choose a floor.</string>
+    <string name="title_activity_first_screen">FirstScreenActivity</string>
+    <string name="title_activity_second_screen">Floor Layout</string>
+    <string name="title_activity_check_in">Check In</string>
 
 </resources>

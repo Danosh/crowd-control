@@ -14,13 +14,25 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cc.crowdcontrol.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstScreenActivity"
+            android:label="@string/title_activity_first_screen" >
+        </activity>
+        <activity
+            android:name=".SecondScreenActivity"
+            android:label="@string/title_activity_second_screen" >
+        </activity>
+        <activity 
+            android:name=".CheckIn"
+            android:label="@string/title_activity_check_in" >
         </activity>
     </application>
 
