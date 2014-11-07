@@ -21,8 +21,8 @@ public class CheckIn extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				//Intent next = new Intent(getApplicationContext(), DynamicGraphActivity.class);
-				//startActivity(next);
+				Intent next = new Intent(getApplicationContext(), TrafficGraph.class);
+				startActivity(next);
 			}
 		});
         

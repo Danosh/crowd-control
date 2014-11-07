@@ -3,24 +3,22 @@ package com.cc.crowdcontrol;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class FeedView extends Activity {
+public class TrafficGraph extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_feed_view);
-		Button btnGraph = (Button) findViewById(R.id.button1);
+		setContentView(R.layout.activity_traffic_graph);
+		Button btnHome = (Button) findViewById(R.id.button1);
         
-        btnGraph.setOnClickListener(new View.OnClickListener() {
+        btnHome.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				Intent next = new Intent(getApplicationContext(), TrafficGraph.class);
+				Intent next = new Intent(getApplicationContext(), MainActivity.class);
 				startActivity(next);
 			}
 		});

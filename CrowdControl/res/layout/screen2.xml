@@ -14,10 +14,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignStart="@+id/imageView1"
         android:layout_alignParentTop="true"
         android:layout_marginTop="62dp"
-        android:text="Please select the area you would like to check-in:"
-        android:textColor="#FFFFFF"
+        android:text="@string/choose_area_title_text"
         android:textSize="24sp" />
 
     <ImageView

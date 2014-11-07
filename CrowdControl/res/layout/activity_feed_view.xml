@@ -26,7 +26,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:text="View Graph" />
+        android:text="@string/view_graph_button_text" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,7 +35,7 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
-        android:text="EST: 04:45:32 PM"
+        android:text="@string/fake_time_text"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -44,8 +44,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignRight="@+id/imageView1"
+        android:layout_alignEnd="@+id/imageView1"
         android:layout_marginTop="20dp"
-        android:text="Currently Viewing: Free Weights"
+        android:text="@string/live_feed_title_text"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="25sp" />
 

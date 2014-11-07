@@ -11,5 +11,13 @@
     <string name="title_activity_second_screen">Floor Layout</string>
     <string name="title_activity_check_in">Check In</string>
     <string name="title_activity_feed_view">Feed View</string>
+    <string name="view_graph_button_text">Check In</string>
+    <string name="fake_time_text">EST: 04:45:32 PM</string>
+    <string name="live_feed_title_text">Currently Viewing: Free Weights</string>
+    <string name="check_in_button_text">Check In</string>
+    <string name="live_feed_button_text">Live Feed</string>
+    <string name="option_title_text">Please Choose an Option:</string>
+    <string name="choose_area_title_text">Please select the area you would like to check-in:</string>
+    <string name="title_activity_traffic_graph">Traffic Graph</string>
 
 </resources>

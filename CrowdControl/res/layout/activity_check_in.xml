@@ -15,8 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/button2"
         android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
         android:layout_marginBottom="38dp"
-        android:text="Check-In"
+        android:text="@string/check_in_button_text"
         android:width="200dp" />
 
     <Button
@@ -26,7 +27,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="145dp"
-        android:text="Live Feed"
+        android:text="@string/live_feed_button_text"
         android:width="200dp" />
 
     <TextView
@@ -36,8 +37,7 @@
         android:layout_above="@+id/button1"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="54dp"
-        android:text="Please Choose an Option:"
-        android:textColor="#FFFFFF"
+        android:text="@string/option_title_text"
         android:textSize="28sp" />
 
 </RelativeLayout>
