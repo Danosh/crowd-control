@@ -9,8 +9,79 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/first_instruction"
+        android:textSize="@dimen/text_size" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/ImageButton01"
+        android:layout_alignStart="@+id/ImageButton01"
+        android:layout_below="@+id/ImageButton01"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/fifthfloor"
+        android:contentDescription="@string/fifth"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/firstfloor"
+        android:contentDescription="@string/first" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="200dp"
+        android:layout_height="125dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/fourthfloor"
+        android:contentDescription="@string/fourth" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginTop="48dp"
+        android:text="@string/first"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ImageButton01"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="42dp"
+        android:text="@string/fourth"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton1"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginBottom="44dp"
+        android:text="@string/fifth"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

@@ -4,5 +4,9 @@
     <string name="app_name">CrowdControl</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="first">1st Floor</string>
+    <string name="fourth">4th Floor</string>
+    <string name="fifth">5th Floor</string>
+    <string name="first_instruction">Please choose a floor.</string>
 
 </resources>
